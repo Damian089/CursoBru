@@ -6,3 +6,33 @@
     color:#00aa00;
     text-decoration:line-through; 
 }
+/* Ejercicio 3 */
+.pregunta {
+    font-family:verdana;
+    font-size:14px;
+    font-style:italic;
+    color:#0000aa;
+  }
+  .respuesta {
+    font-family:verdana;
+    font-size:12px;
+    font-style:normal;
+    text-align:justify;
+    color:#555555;
+  }
+  /* Ejercicio 4*/
+  #cabecera {
+    border-width:2px;
+    border-style:solid;
+    border-color:#0000ff;
+    }
+   #cuerpo {
+        border-width:2px;
+        border-style:dotted;
+        border-color:#00ff00;
+        }
+    #pie {
+            border-width:2px;
+            border-style:outset;
+            border-color:#ff0015;
+            }
