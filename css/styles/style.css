@@ -1,12 +1,35 @@
-.subrayado { 
+/* Ejercicio 2&3 */
+.subrayadotit { 
+  color:#009faa; 
+  text-decoration:underline;
+}
+.subrayadopar { 
     color:#00aa00; 
     text-decoration:underline;
 }
-.tachado {
-    color:#00aa00;
-    text-decoration:line-through; 
+.tachadotit {
+    color: lightcoral;
+    text-decoration:line-through;
 }
-/* Ejercicio 3 */
+.tachadopar {
+    color:#00aa00;
+    text-decoration:line-through;
+}
+.italictit {
+  font-family:'Segoe UI';
+  font-size: 25px;
+  font-style:italic;
+  color: #a11a74;
+  text-decoration:overline;
+}
+.italicpar {
+  font-family:monospace;
+  font-size: 19px;
+  font-weight: lighter;
+  color: #b5c205;
+  text-decoration: overline;
+}
+/* Ejercicio 4 */
 .pregunta {
     font-family:verdana;
     font-size:14px;
@@ -20,7 +43,7 @@
     text-align:justify;
     color:#555555;
   }
-  /* Ejercicio 4*/
+  /* Ejercicio 5*/
   #cabecera {
     border-width:2px;
     border-style:solid;
@@ -36,3 +59,23 @@
             border-style:outset;
             border-color:#ff0015;
             }
+/*Ejercicio 6 */
+.titulosecundario {
+            border-top: 2px;
+            border-bottom: 2px;
+            border-left: 0px;
+            border-right: 0px;
+            border-style:double;
+            border-color: #a11a74;
+            font-style: unset;
+            font-size: 55px;
+            color: teal;
+}/*Texto de prueba 2*/
+.titulosecundario2 {
+              border-width: 4px;
+              border-style:groove;
+              border-color: #271aa1;
+              font-style: italic;
+              font-size: 55px;
+              color: rgb(175, 45, 132);
+              }
