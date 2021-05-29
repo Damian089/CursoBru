@@ -188,6 +188,7 @@
               background-image:url("https://s1.qwant.com/thumbr/0x380/1/b/c618c8d4a93551b9dbc08910943ca9e22b6fb9d28f26d984787da2ca872e7e/Goku-Super-Saiyan-3-dragon-ball-z-38357471-900-600.jpg?u=http%3A%2F%2Fimages6.fanpop.com%2Fimage%2Fphotos%2F38300000%2FGoku-Super-Saiyan-3-dragon-ball-z-38357471-900-600.jpg&q=0&b=1&p=0&a=0");
               background-size:auto;
               background-attachment:scroll;
+              background-position:center;
               color: #fff;
               height: 200px;
               line-height: 200px;
@@ -199,6 +200,7 @@
               background-image:url("https://s2.qwant.com/thumbr/474x592/c/2/1127dbea6343419b6a311b4aaca7688d05587c739738391e272a9b89d21387/th.jpg?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xIY44XFXm-UgasTnQ__TfAHaJQ%26pid%3DApi&q=0&b=1&p=0&a=0");
               background-size:auto;
               background-attachment:scroll;
+              background-position:top;
               color: #fff;
               height: 200px;
               line-height: 200px;
@@ -210,6 +212,7 @@
               background-image:url("https://s2.qwant.com/thumbr/700x0/f/6/75ee6546602a7eee8b890f623056177952bfc805764a5944072cc8c8578d38/super-saiyan-god-goku-header.jpg?u=https%3A%2F%2Fstatic2.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F03%2Fsuper-saiyan-god-goku-header.jpg&q=0&b=1&p=0&a=0");
               background-size:auto;
               background-attachment:scroll;
+              background-position:center;
               color: #fff;
               height: 200px;
               line-height: 200px;
@@ -221,6 +224,7 @@
             background-image:url("https://s1.qwant.com/thumbr/0x380/9/8/937a30f271cbb751fcee3f9ead52ea1891656ef610848b92399c1c66e89887/gokussj.jpg?u=http%3A%2F%2Fanmosugoi.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fgokussj.jpg&q=0&b=1&p=0&a=0");
             background-size:auto;
             background-attachment:scroll;
+            background-position:center;
             color: #fff;
             height: 200px;
             line-height: 200px;
@@ -230,10 +234,11 @@
             }
 .bodymng1   {
             background-image:url("https://s2.qwant.com/thumbr/474x842/5/3/a750e01c5567568bd2a9996a299f833e49480b2cdc3f3db32848effa2a0ede/th.jpg?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FvaqiZ3tJsTEECb7xfOeugHaNK%26pid%3DApi&q=0&b=1&p=0&a=0");
-            background-size:contain;
+            background-size:initial;
+            background-position:top;
             background-attachment:scroll;
             color: #fff;
-            height: 200px;
+            height: 500px;
             line-height: 200px;
             text-align: center;
             vertical-align: middle;
@@ -242,10 +247,11 @@
 .bodymng2   {
             background-image: url("../../Assets/Migatte\ no\ Gokui.jpg");
             background-size:cover;
+            background-position:center;
             background-attachment:scroll;
             color: #fff;
-            height: 400px;
-            line-height: 200px;
+            height: 500px;
+            line-height: 400px;
             text-align: center;
             vertical-align:middle;
             text-shadow: #111 0px 0px 10px;
