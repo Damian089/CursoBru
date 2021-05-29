@@ -240,12 +240,11 @@
             text-shadow: #111 0px 0px 10px;
             }
 .bodymng2   {
-            background-image:url("https://wallpapercave.com/wp/wp3128212.png");
+            background-image: url("../../Assets/Migatte\ no\ Gokui.jpg");
             background-size:cover;
-            background-position: top;
             background-attachment:scroll;
             color: #fff;
-            height: 100px;
+            height: 400px;
             line-height: 200px;
             text-align: center;
             vertical-align:middle;
