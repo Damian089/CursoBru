@@ -79,3 +79,188 @@
               font-size: 55px;
               color: rgb(175, 45, 132);
               }
+              /* Ejercicio 7 */
+.titulopad {
+            background-color: green;
+/*             padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px; */    
+            padding: 10px 20px 10px 20px;
+            width: 40%;
+            } /*puede escribirse, ¿padding: 10px 20px? ¿padding: 10px x% 20px?¿padding: 1em?
+            ¿padding: 10px 20px 5px 15px? -> top right bottom left  SIIIII */
+
+             /* Ejercicio 8 */
+.titulopadEJ8a {
+            background-color: rgb(117, 0, 128);
+            padding: 5px 0px 5px 0px;
+            font-size: 75px;
+            color: bisque;
+            }
+.titulopadEJ8b {
+              background-color: rgb(34, 0, 128);
+              padding: 5px 0px 5px;
+              font-size: 45px;
+              color: azure;
+              }
+             /* Ejercicio 9 */
+.estiloa     {
+            list-style-type:armenian;
+            list-style: upper-roman;
+            border-width: 4px;
+            border-style:groove;
+            border-color: #1a8da1;
+            background-color: rgb(128, 0, 111);
+            padding: 45px 255px 45px;
+            font-size: 45px;
+            color: azure;
+            }
+.estilob    {      
+            list-style-type:circle;
+            border-width: 10px;
+            border-style:double;
+            border-color: #1a54a1;
+            background-color: rgb(0, 128, 0);
+            padding: 35px 45px 35px;
+            font-size: 55px;
+            color: azure;     
+            }
+            /* Ejercicio 10 */
+.estiloc    {
+            list-style-position: inside ;
+            list-style-type:circle;
+            border-width: 10px;
+            border-style:double;
+            border-color: #1aa11a;
+            background-color: rgb(19, 0, 128);
+            padding: 75px 65px 65px;
+            font-size: 60px;
+            color:#555555; 
+            }
+.estilod    {
+            list-style-position: outside;
+            list-style-type:square;
+            border-width: 10px;
+            border-style:double;
+            border-color: #1a27a1;
+            background-color: rgb(0, 128, 21);
+            padding: 75px 65px 65px;
+            font-size: 60px;
+            color:#555555; 
+            }
+            /*Ejercicio 11 */
+.bodybase   {
+              background-image:url("https://s1.qwant.com/thumbr/474x460/2/4/2100abe149db31a6aa6255b88cdc8978a4161f31d9e56a375b628c6269fc26/th.jpg?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Pd4aQASJdZBWeqAJqfvcvAHaHM%26pid%3DApi&q=0&b=1&p=0&a=0");
+              background-size:inherit;
+              background-attachment:fixed;
+              color: #fff;
+              height: 200px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssj1     {
+              background-image:url("https://s2.qwant.com/thumbr/0x380/5/5/bab7e24ac8603686149e5ff1874f34c2ac490f31b6f31250023bde057caace/maxresdefault.jpg?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5vWqnKhQhUM%2Fmaxresdefault.jpg&q=0&b=1&p=0&a=0");
+              background-size:auto;
+              background-attachment:scroll;
+              color: #fff;
+              height: 200px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssj2     {
+              background-image:url("https://s2.qwant.com/thumbr/474x632/d/0/5fe1fc729277533917609dcaa0f206e21c2a494bf343435f36345e3e8dab87/th.jpg?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._vXiXQcuLzpQrft9rl8PSQHaJ4%26pid%3DApi&q=0&b=1&p=0&a=0");
+              background-size:auto;
+              background-position: top;
+              background-attachment:scroll;
+              color: #fff;
+              height: 300px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssj3     {
+              background-image:url("https://s1.qwant.com/thumbr/0x380/1/b/c618c8d4a93551b9dbc08910943ca9e22b6fb9d28f26d984787da2ca872e7e/Goku-Super-Saiyan-3-dragon-ball-z-38357471-900-600.jpg?u=http%3A%2F%2Fimages6.fanpop.com%2Fimage%2Fphotos%2F38300000%2FGoku-Super-Saiyan-3-dragon-ball-z-38357471-900-600.jpg&q=0&b=1&p=0&a=0");
+              background-size:auto;
+              background-attachment:scroll;
+              color: #fff;
+              height: 200px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssj4     {
+              background-image:url("https://s2.qwant.com/thumbr/474x592/c/2/1127dbea6343419b6a311b4aaca7688d05587c739738391e272a9b89d21387/th.jpg?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xIY44XFXm-UgasTnQ__TfAHaJQ%26pid%3DApi&q=0&b=1&p=0&a=0");
+              background-size:auto;
+              background-attachment:scroll;
+              color: #fff;
+              height: 200px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssg1     {
+              background-image:url("https://s2.qwant.com/thumbr/700x0/f/6/75ee6546602a7eee8b890f623056177952bfc805764a5944072cc8c8578d38/super-saiyan-god-goku-header.jpg?u=https%3A%2F%2Fstatic2.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F03%2Fsuper-saiyan-god-goku-header.jpg&q=0&b=1&p=0&a=0");
+              background-size:auto;
+              background-attachment:scroll;
+              color: #fff;
+              height: 200px;
+              line-height: 200px;
+              text-align: center;
+              vertical-align: middle;
+              text-shadow: #111 0px 0px 10px;
+              }
+.bodyssg2   {
+            background-image:url("https://s1.qwant.com/thumbr/0x380/9/8/937a30f271cbb751fcee3f9ead52ea1891656ef610848b92399c1c66e89887/gokussj.jpg?u=http%3A%2F%2Fanmosugoi.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fgokussj.jpg&q=0&b=1&p=0&a=0");
+            background-size:auto;
+            background-attachment:scroll;
+            color: #fff;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            vertical-align: middle;
+            text-shadow: #111 0px 0px 10px;
+            }
+.bodymng1   {
+            background-image:url("https://s2.qwant.com/thumbr/474x842/5/3/a750e01c5567568bd2a9996a299f833e49480b2cdc3f3db32848effa2a0ede/th.jpg?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FvaqiZ3tJsTEECb7xfOeugHaNK%26pid%3DApi&q=0&b=1&p=0&a=0");
+            background-size:contain;
+            background-attachment:scroll;
+            color: #fff;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            vertical-align: middle;
+            text-shadow: #111 0px 0px 10px;
+            }
+.bodymng2   {
+            background-image:url("https://wallpapercave.com/wp/wp3128212.png");
+            background-size:cover;
+            background-position: top;
+            background-attachment:scroll;
+            color: #fff;
+            height: 100px;
+            line-height: 200px;
+            text-align: center;
+            vertical-align:middle;
+            text-shadow: #111 0px 0px 10px;
+            }
+            /*Ejercicio 12 */
+tr:nth-child(odd) {
+                    background: rgb(203, 205, 206);
+                    }
+tr:nth-child(even) {
+                      background: rgb(230, 236, 241);
+                      }
+tr:first-child {
+                font-weight: bolder;}
+td:first-child 
+              { font-weight: bolder; text-align: center;}
+tr 
+                {height: 40px;}
