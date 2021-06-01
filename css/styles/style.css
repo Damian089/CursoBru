@@ -152,10 +152,11 @@
             /*Ejercicio 11 */
 .bodybase   {
               background-image:url("https://s1.qwant.com/thumbr/474x460/2/4/2100abe149db31a6aa6255b88cdc8978a4161f31d9e56a375b628c6269fc26/th.jpg?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Pd4aQASJdZBWeqAJqfvcvAHaHM%26pid%3DApi&q=0&b=1&p=0&a=0");
-              background-size:inherit;
+              background-size:auto;
               background-attachment:fixed;
+              background-position: top;
               color: #fff;
-              height: 200px;
+              height: 300px;
               line-height: 200px;
               text-align: center;
               vertical-align: middle;
@@ -247,13 +248,13 @@
 .bodymng2   {
             background-image: url("../../Assets/Migatte\ no\ Gokui.jpg");
             background-size:cover;
-            background-position:center;
+            background-position:bottom;
             background-attachment:scroll;
-            color: #fff;
+            color: rgb(71, 16, 199);
             height: 500px;
-            line-height: 400px;
-            text-align: center;
-            vertical-align:middle;
+            line-height: 800px;
+            text-align: left bottom;
+            vertical-align:text-bottom;
             text-shadow: #111 0px 0px 10px;
             }
             /*Ejercicio 12 */
@@ -267,5 +268,5 @@ tr:first-child {
                 font-weight: bolder;}
 td:first-child 
               { font-weight: bolder; text-align: center;}
-tr 
-                {height: 40px;}
+tr            {
+                height: 40px;}
