@@ -270,3 +270,9 @@ td:first-child
               { font-weight: bolder; text-align: center;}
 tr            {
                 height: 40px;}
+                /*Ejercicio 13*/
+h1            {font: 10px Arial;} /* ¿No toma solo con Arial? */
+h2            {font: 10px Arial;}
+h3            {font: 8px Helvetica;}
+
+

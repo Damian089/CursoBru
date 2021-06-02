@@ -1,0 +1,33 @@
+            /*Ejercicio 14*/
+h1            {font: 30px Arial;
+               font-style: bolder;
+               text-decoration: underline;               
+              }
+.inputclass     {
+                border-color: maroon;
+                font-style: oblique;
+                color: mediumaquamarine;
+                background-color: blueviolet;
+                }
+.inputclass2     {
+                    border-color: rgb(58, 10, 170);
+                    font-style: oblique;
+                    color: rgb(193, 216, 65);
+                    background-color: rgb(83, 160, 39);
+                    }
+.formdad      { 
+                flex-direction: column;
+                padding-bottom: 0px;
+                display: flex;
+                width: 170px;
+
+               }
+.divider          {
+                     height: 300px;
+                    }
+.container.main {
+                    margin-top: 40px;
+                    border-color: black;
+                    box-shadow: 5px 10px 20px black;
+                    width: 25%;
+                }

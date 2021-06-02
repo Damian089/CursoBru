@@ -1,0 +1,35 @@
+<!--Problema 17: Confeccionar un formulario que permita ingresar el nombre de un producto, su precio
+    (input number ), su descripción (input text) y tipo de producto ( select box ) los tipos puede ser
+    ( cereal, lácteos, envasados -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles/forms.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+<body>
+    <h1>Pedidos</h1>
+    <form>
+        <div class="formdad">
+            <label for="name">Producto</label>
+                <div class="divider"></div><!--¿Cómo hacer la relación de una opción y otros?-->
+            <input type="text" id="name" name="name">
+        </div>
+        <label for="precio">Precio</label><br>
+        <input type="number" id="precio" name="precio"><br><br>
+        <label for="type">Tipo de producto</label><br>
+        <select id="type" name="type"><br><br>
+            <option>Elegir</option>
+            <option>Cereal</option>
+            <option>Lácteo</option>
+            <option>Envasado</option>
+        </select><br><br>
+        <label for="comments">Comentarios:</label><br>
+        <textarea rows="7" cols="30" id="comments" wrap="physical" name="comments">Escribe un comentario</textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
